@@ -39,4 +39,5 @@ public class Storage {
     public static Employee getStoreKeeper() {
         return storeKeeper;
     }
+
 }

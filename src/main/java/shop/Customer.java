@@ -103,7 +103,7 @@ public class Customer {
                 .add("check=" + check)
                 .toString();
     }
-
+    
     public void setDiscount(double discount) {
         this.discount = discount;
     }
