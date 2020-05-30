@@ -20,17 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="346cfca5-d4a7-48cf-85d2-5789257c97e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/demo/DemoData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/CashRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/CashRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Cashier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Consultant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Consultant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/StoreKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/StoreKeeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/interfaces/IConsultant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/interfaces/IConsultant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/TokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/TokenGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/shop/interfaces/IStoreKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/interfaces/IStoreKeeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TeamShopExtend/pom.xml" beforeDir="false" />
     </list>
@@ -44,8 +37,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>

@@ -4,14 +4,14 @@ import java.util.List;
 
 public class TokenGenerator {
     public static String generateToken(List<Goods> cart){
-        String token = "";
+        StringBuilder token = new StringBuilder();
         for (Goods goods : cart)
         {
-            token = token + goods.getBrand().toString();
-            token = goods.getUniqueName() + token;
-            token = goods.getDepartment() + token;
-            token = token + cart.hashCode();
+            token.append(goods.getBrand().toString());
+            token.insert(0, goods.getUniqueName());
+            token.insert(0, goods.getDepartment());
+            token.append(cart.hashCode());
         }
-        return token;
+        return token.toString();
     }
 }

@@ -18,6 +18,8 @@ public interface IStoreKeeper {
 
     List<Goods> get(EDepartment department);
 
+    void updateCounters();
+
     int count(EBrand brand);
 
     int count(EGroup group);
