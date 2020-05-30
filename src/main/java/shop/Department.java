@@ -2,9 +2,9 @@ package shop;
 
 import shop.employee.Consultant;
 import shop.employee.Employee;
-import shop.employee.Consultant;
 import shop.enums.EBrand;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.StringJoiner;
@@ -18,10 +18,24 @@ public class Department {
     public Department() {
     }
 
+    public Department(List<EBrand> brands, List<Goods> goods) {
+        this.brands = brands;
+        this.goods = goods;
+    }
+
+    public Department(List<EBrand> brands, List<Goods> goods, List<Employee> consultants) {
+        this.brands = brands;
+        this.goods = goods;
+        this.consultants = consultants;
+    }
+
     public List<EBrand> getBrands() {
         return brands;
     }
 
+    public void addGoods(Goods... goods) {
+        this.goods.addAll(Arrays.asList(goods));
+    }
 
     public List<Goods> getGoods() {
         return goods;

@@ -214,4 +214,9 @@ public class StoreKeeper extends Employee implements IStoreKeeper {
         return null;
     }
 
+    @Override
+    public Goods transferToDepartment(Goods goods) {
+        return transferToDepartment(generateUniqueName(goods));
+    }
+
 }

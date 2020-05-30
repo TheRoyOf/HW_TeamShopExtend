@@ -72,10 +72,6 @@ public class Consultant extends Employee implements IConsultant {
         return suggestedGoods;
     }
 
-    @Override
-    public String generateUniqueName() {
-        return null;
-    }
 
     @Override
     public String giveInfoByName(String name) {

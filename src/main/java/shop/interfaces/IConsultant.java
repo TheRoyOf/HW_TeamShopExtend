@@ -12,6 +12,5 @@ public interface IConsultant {
     public List<Goods> giveByGroup(EGroup group);
     public List<Goods> giveByBrands(EBrand brand);
     public List<Goods> giveByPrice(double startPrice, double finishPrice);
-    public String generateUniqueName();
     public String giveInfoByName(String name);
 }

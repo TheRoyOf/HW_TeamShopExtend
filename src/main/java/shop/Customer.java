@@ -1,9 +1,10 @@
 package shop;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
-import java.util.StringJoiner;
+import shop.enums.EBrand;
+import shop.enums.EDepartment;
+import shop.enums.EGroup;
+
+import java.util.*;
 
 public class Customer {
     private static long staticID = 0;
@@ -19,6 +20,21 @@ public class Customer {
         this.name = name;
         this.discount = discount;
         this.money = money;
+    }
+
+    public void AddToCart(Goods  goods)
+    {
+        cart.add(goods);
+    }
+
+    public void RemoveFromCart(Goods goods)
+    {
+        cart.remove(goods);
+    }
+
+    public void RemoveFromCart(int id)
+    {
+        cart.remove(id);
     }
 
     public long getId() {
@@ -86,5 +102,9 @@ public class Customer {
                 .add("cart=" + cart)
                 .add("check=" + check)
                 .toString();
+    }
+
+    public void setDiscount(double discount) {
+        this.discount = discount;
     }
 }
